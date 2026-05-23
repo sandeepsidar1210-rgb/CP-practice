@@ -18,7 +18,7 @@ int main(){
                 arr[count++]= digit * place;
             }
             place = place * 10;
-            n = n/10;
+            n = n/10; 
 
         }
         printf("%d\n",count);
